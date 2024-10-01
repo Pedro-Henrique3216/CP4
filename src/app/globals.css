@@ -1,1 +1,172 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex-grow: 1;
+}
+
+.cabecalho {
+    background-color: #ccc;
+    padding: 1em;
+    text-align: center; 
+    border-bottom: 2px solid black;   
+}
+
+.cabecalho__nav{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.cabecalho__links{
+    color: black;
+    text-decoration: none;
+}
+
+.propaganda {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    border-bottom: 3px solid black;
+    padding: 20px;
+}
+
+.propaganda__descricao {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.nome_lava{
+    color: red;
+}
+
+.propaganda__descricao h1{
+    font-size: 2rem;
+}
+
+.propaganda__descricao h2{
+    font-size: 1.5rem;
+}
+
+.propaganda__descricao p {
+    font-size: 1.2rem;
+}
+
+.propaganda__img{
+    width: 60%;
+    height: 20%;
+    border-radius: 2%;
+    box-shadow: 3px 3px black;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 1em;
+    width: 33.33%;
+    
+}
+
+.card img {
+    width: 70%;
+    height: 50%;
+}
+
+.footer {
+    text-align: center;
+    background-color: #ccc;
+    border-top: 2px solid black;
+    padding: 1em;
+}
+
+.footer div {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+} 
+
+.footer h1 {
+    border-right: 1px solid black;
+    padding: 10px;
+}
+
+
+.pedidos {
+    background-color: #ccc;
+    border: 2px solid #333;
+    box-shadow: 5px 5px 5px #333;
+    padding: 20px;
+    text-align: center;
+    width: 350px;
+    height: 250px;
+    margin: 10px;
+    position: relative;
+  
+    h2, p{
+      padding-bottom: 10px;
+    }
+    
+    button {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+    }
+    
+  }
+
+.lista__pedidos{
+    width: 100%;
+    min-height: 100vh;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+  .form__pedido{
+    width: 50%;
+    height: 50%;
+    padding: 20px;
+    background-color: #00eeff;
+  
+    form{
+      width: 50%;
+      margin: auto;
+      
+      input{
+        padding: 10px;
+        width: 80%;
+        margin-bottom: 5px;
+        border-radius: 10px;
+      }
+  
+      button {
+        padding: 1em;
+        background-color: aqua;
+        width: 80%;
+        border-radius: 20px;
+      }
+    }
+  
+  }
+
 
